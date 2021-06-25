@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: darkturquoise;
+    height: 40px;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 16px;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+}
