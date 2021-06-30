@@ -5,14 +5,69 @@
 .header {
     background-color: darkturquoise;
     height: 40px;
+    position: relative;
 }
 
-.nav-list {
-    display: flex;
-    margin-left: 16px;
-    align-items: center;
+.navigation {
+    height: 40px;
 }
 
 .nav-item {
-    display: flex;
+    display: inline-block;
+    margin-left: 16px;
+    color: white;
+    line-height: 40px;
+}
+
+.content {
+    background-color: beige;
+    height: 5000px;
+}
+
+.head {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 100px);
+}
+
+.ear {
+    height: 60px;
+    width: 40px;
+    background-color: brown;
+}
+
+.ear_left {
+    float: left;
+    position: relative;
+    right: 40px;
+    bottom: 60px;
+}
+
+.ear_right {
+    float: right;
+    position: relative;
+    left: 40px;
+    bottom: 60px;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    position: relative;
+    top: 80px;
+}
+
+.eye_left {
+    float: left;
+}
+
+.eye_right {
+    float: right;
 }
