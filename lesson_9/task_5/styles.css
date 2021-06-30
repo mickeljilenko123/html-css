@@ -5,7 +5,9 @@
 .header {
     background-color: darkturquoise;
     height: 40px;
-    position: relative;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 .navigation {
