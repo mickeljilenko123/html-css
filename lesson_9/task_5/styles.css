@@ -15,7 +15,8 @@
 }
 
 .nav-item {
-    display: inline-block;
+    position: relative;
+    float: left;
     margin-left: 16px;
     color: white;
     line-height: 40px;
